@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    font-family: "Lobster Two", system-ui;
+    font-size: 24px;
+}
+html {
+scroll-behavior: smooth;
+}
+main{
+    width: 1366px;
+    height: 2000px;
+    background-color: #53b8a7;
+    margin: 0 auto;
+}
+header{
+    width: 1366px;
+    height: 200px;
+    text-align: center;
+}
+nav{
+    width: 1366px;
+    height: 50px;
+    background-color: #61d4c1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    transition: 1s;
+}
+button{
+    border: 0;
+    background-image: -moz-linear-gradient(
+    150deg,
+    #9500ff,
+    #09f,
+    #00DDFF,
+    );
+    border-radius: 8PX;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+button span {
+ background-color: #79e7ba;
+ padding: 16px 24px;
+ border-radius: 6px;
+ transition: .3s;
+}
+button:hover span{
+    background: none;
+}
+button:active{
+    transform: scale(1.2);
+}
+section{
+    width: 1366px;
+    height: 1500px;
+    background-color: #61d4c1; 
+    
+}
+section .Conferencistas{
+    width: 1300px;
+    height: 350px;
+    margin-left: 33px;
+    margin-top: 20px;
+    float: left;
+}
+.Conferencistas .foto{
+    width: 400px;
+    height: 350px;
+    float: left;
+    text-align: center;
+    margin-left: 33px;
+    border-bottom:#326d63 6px solid;
+}
+
+.foto img{
+    height: 100%;
+    
+}
+.Conferencistas .texto{
+    width: 800px;
+    height: 350px;
+    float: left;
+    margin-left: 33px;
+    padding: 20px;
+    background-color: #aaf0e4;
+}
+footer{
+    width: 1366px;
+    height: 250px;
+    background-color: #53b8a7;
+   float: right;
+    
+} 
+h2, h3{
+    font-family: "Bruno Ace SC", sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: "Bruno Ace SC", sans-serif;
+text-align: left;
+}
+
+iframe{
+    text-align: left;
+}
+a{
+    font-family: "Lobster Two", sans-serif;
+}
